@@ -6,7 +6,7 @@
 
 QT       += core
 
-TARGET = Eyecare
+TARGET = Rxg
 TEMPLATE = app
 LIBS+=-lUser32 -lGdi32
 

@@ -14,7 +14,7 @@ void CQWindow::setTitle(const QString &title)
 
 void CQWindow::createWindow()
 {
-    create(WS_EX_TOPMOST|WS_EX_TRANSPARENT);
+    create(WS_EX_TOPMOST|WS_OVERLAPPEDWINDOW);
 }
 
 int CQWindow::messageProc(HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
